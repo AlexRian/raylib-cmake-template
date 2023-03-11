@@ -1,2 +1,2 @@
 # raylib.template
-### Template for raylib projects
+### Template for raylib projects using Cmake
