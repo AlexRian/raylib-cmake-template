@@ -10,7 +10,7 @@ public:
     }
 };
 
-class Box : public PhysicsEntity {
+class Block : public PhysicsEntity {
     using PhysicsEntity::PhysicsEntity;
 public:
     void draw() {

@@ -12,14 +12,14 @@ int main(void)
     Debug debug{ 0, 0, false };
     Physics physics{ b2Vec2{0.f, 9.8f} };
 
-    Box box{ 
+    Block box{ 
         Settings::screenWidth / 2, 90, 90,
-        physics.getBody(Settings::screenWidth / 2, 200.0f, 90, 200, 120, true, {.5f, 0.3f, 0})
+        physics.getBody("Block", Settings::screenWidth / 2, 200.0f, 90, 200, 120, true, Box, {.5f, 0.3f, 0})
     };
 
     Ground ground{ 
         Settings::screenWidth / 2, Settings::screenHeight, 180,
-        physics.getBody(Settings::screenWidth / 2, Settings::screenHeight, 180, Settings::screenWidth, 60, false, {0.1f, 0.1f, 0.1f})
+        physics.getBody("Ground", Settings::screenWidth / 2, Settings::screenHeight, 180, Settings::screenWidth, 60, false, Box, {0.1f, 0.1f, 0.1f})
     };
 
     while (!WindowShouldClose())
