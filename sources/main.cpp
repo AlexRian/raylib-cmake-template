@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include "raylib.h"
-#include "./engine/debug.hpp"
-#include "./engine/physics.hpp"
+#include "./engine/headers/debug.hpp"
+#include "./engine/headers/physics.hpp"
+#include "./settings.hpp"
 #include "./entities.hpp"
 
 int main(void)

@@ -6,7 +6,7 @@
 #include <functional>
 #include <vector>
 #include <Box2D/Box2D.h>
-#include "./headers/settings.hpp"
+#include "settings.hpp"
 #include "entity.hpp"
 
 enum BodyType {

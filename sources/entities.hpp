@@ -1,5 +1,6 @@
-#include "./engine/entity.hpp"
-#include "./engine/physics.hpp"
+#include "./engine/headers/entity.hpp"
+#include "./engine/headers/physics.hpp"
+#include "settings.hpp"
 
 class Shape : public Entity {
     using Entity::Entity;
